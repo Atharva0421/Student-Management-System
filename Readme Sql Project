@@ -1,0 +1,82 @@
+# Student Management System – SQL Solution
+
+## 📌 Overview
+
+This project contains the SQL files, queries, and database structures developed for the **Student Management System**. The goal of this work was to design, manage, and query a relational database that supports core operations such as student registration, course management, faculty allocation, attendance tracking, and result generation.
+
+---
+
+## 📁 Project Structure
+
+```
+/student-management-system-sql
+│
+├── schema.sql              # Database creation and table definitions
+├── insert_data.sql         # Sample data for testing
+├── queries.sql             # All major SQL queries used in the project
+├── procedures.sql          # Stored procedures (if any)
+├── views.sql               # Views created for simplified operations
+└── readme.md               # Documentation
+```
+
+---
+
+## 🏗️ Database Design
+
+The system follows a clean relational structure. Key tables include:
+
+* **students** – Stores student personal and academic details
+* **courses** – Course-related information
+* **faculty** – Information about teachers/instructors
+* **enrollments** – Mapping table linking students and courses
+* **attendance** – Attendance records
+* **results** – Marks and performance data
+
+### 🔗 Relationships
+
+* One **Student** can enroll in multiple **Courses**
+* One **Course** can have multiple **Enrollments**
+* One **Faculty** member can handle multiple **Courses**
+
+---
+
+## 🗂️ Key Features Implemented
+
+* Database creation using **DDL commands** (CREATE, ALTER, DROP)
+* Data manipulation using **DML commands** (INSERT, UPDATE, DELETE)
+* Data retrieval using **SELECT, JOIN, GROUP BY, ORDER BY**
+* **INNER JOIN / LEFT JOIN** used for complex multi-table analysis
+* Ensured **data integrity** using Primary Keys, Foreign Keys, and constraints
+* Sample queries include:
+
+  * Fetching student details with their enrolled courses
+  * Listing faculty with their assigned subjects
+  * Attendance percentage calculation
+  * Result analysis using aggregate functions
+
+---
+
+## 🚀 How to Run the Project
+
+1. Install MySQL or any SQL-compliant database.
+2. Run `schema.sql` to create the database and tables.
+3. Run `insert_data.sql` to populate sample data.
+4. Execute `queries.sql` to test major operations.
+
+---
+
+## 🔗 Project Link
+
+GitHub Repository: **
+
+---
+
+## 📞 Contact
+
+For queries or collaboration:
+**Atharva Dhawale**
+Email: [atharvadhawale0421@gmail.com]
+
+---
+
+This README is ready for direct upload to GitHub. Let me know if you want ER diagrams or SQL files created as well.
